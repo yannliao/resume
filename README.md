@@ -2,7 +2,8 @@
 
 ##Eduction
 
-Got B.S. degree of Central South University in 2012 and M.S degree of University of Chinese Academy of Science in 2015.
+*2012, Got B.S. degree in Automation of Central South University.
+*2015, Got M.S degree in Control Theory and Control Engineering of University of Chinese Academy of Science.
 
 ##Journal Artical
 
