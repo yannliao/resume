@@ -1,5 +1,4 @@
 #resume
-***
 
 ##Eduction
 
