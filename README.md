@@ -10,6 +10,11 @@
 [Compensation topology for flat spiral coil inductive power transfer systems](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7274056)
 Published in: IET Power Electronics (Volume:8 ,  Issue: 10 )
 
+##How to use
+
+* install tex\_live
+* compile tex file using: pdflatex *.tex
+
 >This is my resume compiled in latex using moderncv theme.
 
 >>LaTeX is a high-quality typesetting system. You can get TeX Live in "http://www.tug.org/texlive/" for Linux.
