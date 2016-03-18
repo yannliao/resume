@@ -1,0 +1,175 @@
+%% start of file `template-zh.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{red}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+\usepackage{CJKutf8}
+
+% 调整页面出血
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2cm}           % 如果你希望改变日期栏的宽度
+
+% 个人信息
+\familyname{颜华}
+\firstname{廖}
+\title{Front End Engineer}                     % 可选项、如不需要可删除本行
+\phone[mobile]{186~6821~0183}              % 可选项、如不需要可删除本行
+\email{liaoyann@gmail.com}                    % 可选项、如不需要可删除本行
+\homepage{github.com/yannliao/}                  % 可选项、如不需要可删除本行
+%\address{}{沈阳市南塔街114号}            % 可选项、如不需要可删除本行
+
+\photo[64pt][0.4pt]{liao}                  % ‘64pt’是图片必须压缩至的高度、‘0.4pt‘是图片边框的宽度 (如不需要可调节至0pt)、’picture‘ 是图片文件的名字;可选项、如不需要可删除本行
+%\quote{引言(可选项)}                          % 可选项、如不需要可删除本行
+
+% 显示索引号;仅用于在简历中使用了引言
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% 分类索引
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+
+\section{教育背景}
+\cventry{2012--2015}{中国科学院大学}{自动化专业}{硕士研究生}{}{}
+\cventry{2008--2012}{中南大学}{自动化专业}{本科}{}{}
+
+\section{专业技能}
+%\subsection{Proficient With}
+\cvline{前端开发}{熟练掌握HTML/CSS/JavaScript等Web前端技术.}
+\cvline{编程语言}{熟悉使用Python, Nodejs, C等相关语言.}
+%\subsection{Have Experience With}
+\cvline{开发环境}{熟练掌握Linux, Vim, Sublime text 等开发环境和工具.}
+\cvline{基础知识}{了解数据结构, 算法, 操作系统, 计算机体系结构相关知识.}
+\cvline{语言能力}{英语: 能够熟练的读懂相关英文文档，曾经在SCI英文期刊上发表过论文.}
+%\cvline{}{英语四六级: 通过.}
+
+\section{项目经历}
+
+
+
+
+
+\cventry{2015.08--2015.11}{青果轻应用和公众号}{网易青果}{杭州}{}{}
+\cvitem{}{青果轻应用的web页面开发和维护, 包括密码邮箱找回和验证, 摄像机设置页面, 录像页面等.}
+\cvitem{}{青果青果公众号相页面开发, 包括电信免流量设置, gif和录像分享等.}
+\cvitem{}{青果轻应用后台管理系统的开发.}
+
+\cventry{2015.08--2015.11}{青果官网}{网易青果}{杭州}{}{}
+\cvitem{}{官网登录, pc和wap端聊天功能, 售卖详细页和相关购买页等.}
+\cvitem{}{海选投票的node服务器开发.}
+\cvitem{}{官网后台管理系统的开发.}
+\cvitem{}{相关活动H5页面等.}
+
+\section{兴趣点}
+\cvline{前端开发}{HTML5和CSS3, ECMAScript 6, Nodejs, React, ReactNative, 前端自动化, 前端单元测试}
+\cvline{计算机}{MongoDB, MySQL等数据库, 算法和数据结构, 编译原理}
+\cvline{其他}{摄影，吉他}
+
+
+
+
+
+%\cventry{2015.08--2015.11}{青果轻应用和公众号}{}{网易青果}{}{
+%\begin{itemize}%
+%\item 青果轻应用的web页面开发和维护，包括密码邮箱找回和验证，摄像机设置页面，录像页面等.
+%\item 青果青果公众号相页面开发，包括电信免流量设置，gif和录像分享等.
+%\item 青果轻应用后台管理系统的开发.
+%\end{itemize}}
+
+
+%\cventry{2015.08--2015.11}{青果官网}{}{网易青果}{}{
+%\begin{itemize}%
+%\item 官网登录，pc和wap端聊天功能，售卖详细页和相关购买页等.
+%\item 海选投票的node服务器开发.
+%\item 官网后台管理系统的开发.
+%\item 相关活动H5页面等.
+%\end{itemize}}
+
+
+%\section{兴趣点}
+%\cvline{前端开发}{HTML5和CSS3, ECMAScript 6, Nodejs, React, ReactNative, 前端自动化, 前端单元测试}
+%\cvline{计算机}{MongoDB, MySQL等数据库, 算法和数据结构，编译原理}
+%\cvline{其他}{摄影，吉他}
+
+%\cvline{控制理论}{自动控制理论, 模拟电子技术, 数字电子技术, 微机原理及接口技术, 电路理论, 智能控制.}
+%\cvline{控制理论}{自动控制理论, 模拟电子技术, 数字电子技术, 微机原理及接口技术, 电路理论, 智能控制, 微控制器技术, DSP原理及应用.}
+
+
+
+
+
+%\cventry{2010--2012}{中南大学招生在线}{}{中南大学}{http://zhaosheng.csu.edu.cn/}{
+%\begin{itemize}%
+%\item 负责网站前端的日常维护.
+%\item 推动现版主页与二级页面的改版.
+%\item 使用HTML, CSS, JavaScript完成现版的前端开发.
+%\item 对新成员进行前端培训.
+%\item 搭建并使用了LAMP开发环境.
+%\end{itemize}}
+
+
+%\cventry{2011.02}{美汇文化传播有限公司页面}{}{}{企业外包项目之一}{
+%\begin{itemize}%
+%\item 使用HTML, CSS, JavaScript完成其公司的产品展示页面.
+%\item 协调进度,与设计人员共同完成项目.
+%\end{itemize}}
+
+%\cventry{2011.04}{中南大学主页改版竞标}{}{}{}{
+%\begin{itemize}%
+%\item 使用HTML, CSS, JavaScript完成竞标用静态页面.
+%\end{itemize}}
+
+% \cventry{2010.11}{大学英语统考辅导网站}{}{}{}{
+% \begin{itemize}%
+% \item 使用HTML, CSS, JavaScript完成考试系统静态页面.
+% \end{itemize}}
+
+
+% \cventry{2012--2015}{基于电磁耦合的无线电能传输}{中国科学院大学}{}{}{
+% \begin{itemize}%
+% \item 完成了IPT(inductive power transfer)相关特性的研究, 设计系统整体结构.
+% \item 设计并完成相关硬件电路, 并应用相应的控制算法.
+% \end{itemize}}
+
+%\section{知识结构}
+%\cvline{前端开发}{CSS禅意花园, 精通CSS: 高级web标准解决方案, 响应式Web设计: HTML5和CSS3实战}
+%\cvline{}{JavaScriptDOM编程艺术, JavaScript高级程序设计, JavaScript权威指南, JavaScript语言精粹, JavaScript设计模式.}
+%\cvline{控制理论}{智能系统, 通信与电子系统设计, 复杂数字系统设计技术, 嵌入式系统设计, 人工智能及应用.}
+%\cvline{计算机}{计算机程序设计基础, 网络技术与应用, 数据库技术, 数据结构, 人工智能, 专家系统.}
+%\cvline{控制理论}{自动控制理论, 模拟电子技术, 数字电子技术, 微机原理及接口技术, 电路理论, 智能控制.}
+%\cvline{控制理论}{自动控制理论, 模拟电子技术, 数字电子技术, 微机原理及接口技术, 电路理论, 智能控制, 微控制器技术, DSP原理及应用.}
+%\cventry{2012--2015}{中国科学院大学}{自动化专业}{硕士研究生}{}{}
+%\cventry{2008--2012}{中南大学}{自动化专业}{本科}{}{}
+
+
+%\section{社会实践}
+%\cventry{2009--2012}{中国高校勤工助学在线}{中南大学}{长沙}{}{}
+%\cventry{2010--2012}{中南大学招生在线}{中南大学}{长沙}{http://zhaosheng.csu.edu.cn/}{}
+%\cventry{}{辽宁省研究生数学建模竞赛}{省三等奖}{沈阳}{}{}
+
+
+\clearpage\end{CJK}
+\end{document}
+
+
+%% 文件结尾
