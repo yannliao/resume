@@ -1,12 +1,4 @@
-%% start of file `template-zh.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
-
-\documentclass[12pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 
 % moderncv 主题
@@ -65,20 +57,51 @@
 
 \section{项目经历}
 
+% \renewcommand{\listitemsymbol}{-~}
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\cventry{2015.07--Present}{前端开发工程师}{}{网易杭州研究院}{杭州}{针对青果直播和售卖官网SPA系统中首屏加载耗时和SEO等问题, 利用了Isomorphic JavaScript的概念Node.js服务端渲染技术, 最终让首页加载耗时间缩小到原来的三分之一, 优化了站点SEO, 同时分离了前后端, 使得项目开发更加的敏捷.\newline{}}
+
+\cvitem{}{
+\begin{itemize}
+\item 青果直播和售卖官网
+\newline{入职以来开始参加青果直播和售卖官网的前端开发, 在开发过程中掌握了MVC框架的开发流程, 熟悉了前端工程化. 在青果直播前端中负责了聊天评论, 登录注册, 我的摄像机等模块, 在售卖官网中负责了首页, 详情和购买等模块. 在开发过程中, 使用组件式开发, 提高了模块之间的隔离性, 降低模块之间耦合, 提高了开发效率. 同时还负责了后台管理系统, 快速熟悉了freemarker服务器模板, 高效地完成开发任务.}
+\begin{itemize}
+\item MVC框架, freemarker模板, 加密算法等.
+\item 我的摄像机, 多屏观看, 聊天评论, 登录注册, 后台管理系统, 售卖官网首页, 详情和购买等.
+\end{itemize}
+\end{itemize}
+}
+
+\cvitem{}{
+\begin{itemize}
+\item 前后端分离和首页性能优化
+\newline{针对青果直播和售卖官网SPA系统中首屏加载耗时和SEO等问题, 利用了Isomorphic JavaScript的概念Node.js服务端渲染技术, 最终让首页加载耗时间缩小到原来的三分之一, 优化了站点SEO, 同时分离了前后端, 使得项目开发更加的敏捷.}\end{itemize}
+}
+
+\cvitem{}{
+\begin{itemize}
+\item 投票和H5活动的服务端,前端
+\newline{利用Node.js 技术快速完成了投票活动的搭建, 实现了投票活动的模板化, 最终让投票活动类需求能够较快速完成开发. 同时利用Vue和React完成了多个H5活动, 在多个活动中碰到图片上传需求, 利用Canvas实现图片压缩, 翻转, 文件读取上传的组件, 使得相似问题能够快速解决. 在开发过程中, 不但按时完成需求上线, 同时还对于React, ES2015, Node.js等新技术进行了实践. }\end{itemize}
+}
+
+\cvitem{}{
+\begin{itemize}
+\item 视频播放模块, 多屏观看
+\newline{主要工作重构播放器模块. 将flash和外部播放器模块通过API进行通信, 实现了js对flash播放器功能控制. 实现了播放器的页面元素全屏, 多屏观看功能, 并实现摄像机的拖动添加等在项目过程中, 对各种流媒体技术进行了学习了解, 关注了直播领域中YouTube和netfix使用的MPEG-DASH流媒体和H5播放器技术, 并对两者进行了相关研究, 并且搭建了实验性平台, 工作之外主动学习, 对技术进行积累. }\end{itemize}
+}
+
+\cvitem{}{
+\begin{itemize}
+\item 其他
+\newline{青果易信公众号的部分web页面开发和维护, 包括密码邮箱找回和验证, 摄像机设置页面, 录像页面, 电信免流量设置, gif和录像分享等.}\end{itemize}
+}
 
 
+% \cvitem[spacing]{header}{text}
+
+% \cventry[spacing]{years}{degree/job title}{institution/employer}{localization}{optionnal: grade/...}{optional: comment/job description}
 
 
-\cventry{2015.08--2015.11}{青果轻应用和公众号}{网易青果}{杭州}{}{}
-\cvitem{}{青果轻应用的web页面开发和维护, 包括密码邮箱找回和验证, 摄像机设置页面, 录像页面等.}
-\cvitem{}{青果青果公众号相页面开发, 包括电信免流量设置, gif和录像分享等.}
-\cvitem{}{青果轻应用后台管理系统的开发.}
-
-\cventry{2015.08--2015.11}{青果官网}{网易青果}{杭州}{}{}
-\cvitem{}{官网登录, pc和wap端聊天功能, 售卖详细页和相关购买页等.}
-\cvitem{}{海选投票的node服务器开发.}
-\cvitem{}{官网后台管理系统的开发.}
-\cvitem{}{相关活动H5页面等.}
 
 \section{兴趣点}
 \cvline{前端开发}{HTML5和CSS3, ECMAScript 6, Nodejs, React, ReactNative, 前端自动化, 前端单元测试}
@@ -86,6 +109,16 @@
 \cvline{其他}{摄影，吉他}
 
 
+% \cventry{2015.08--2015.11}{青果轻应用和公众号}{网易青果}{杭州}{}{}
+% \cvitem{}{青果轻应用的web页面开发和维护, 包括密码邮箱找回和验证, 摄像机设置页面, 录像页面等.}
+% \cvitem{}{青果青果公众号相页面开发, 包括电信免流量设置, gif和录像分享等.}
+% \cvitem{}{青果轻应用后台管理系统的开发.}
+
+% \cventry{2015.08--2015.11}{青果官网}{网易青果}{杭州}{}{}
+% \cvitem{}{官网登录, pc和wap端聊天功能, 售卖详细页和相关购买页等.}
+% \cvitem{}{海选投票的node服务器开发.}
+% \cvitem{}{官网后台管理系统的开发.}
+% \cvitem{}{相关活动H5页面等.}
 
 
 
